@@ -12,17 +12,20 @@ package actividad_02_ud3_ed;
 public class CCuenta {
 
 
-     
+ 
   protected String nombre;
     private String cuenta;
     private double saldo;
     private double tipoInterés;
 
-  
+  /**
+   * 
+   */
     public CCuenta ()
     {
     }
-   /**
+   
+    /**
     * 
     * @param nom Nombre del titular de la cuenta
     * @param cue Numero de cuenta
